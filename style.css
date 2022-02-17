@@ -185,6 +185,17 @@ body {
   padding: 1rem;
 }
 
+@media only screen and (max-width: 600px) {
+  .card-area {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding: 1rem;
+    gap: 3rem;
+  }
+}
 /* Card ============================================*/
 
 /* Area to hold an individual card */
