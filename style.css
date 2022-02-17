@@ -9,6 +9,12 @@
 
 html { font-size: 2vh; }
 
+@media only screen and (max-width: 600px) {
+  html {
+    font-size: 1vh;
+  }
+}
+
 body {
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
